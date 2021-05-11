@@ -134,7 +134,6 @@ export const uploadNewRecipe = async (newRecipe) => {
         const recipe = deFormattedRecipeForAPI(newRecipe, ingredients);
 
         const data = await AJAX(`${API_URL}?key=${API_KEY}`, recipe);
-        console.log(data);
         state.recipe = formattedRecipeForState(data);
         addBookmark(state.recipe);
     } catch (err) {
