@@ -1,6 +1,6 @@
 # Action-Forkify-Site
 
-A simple web application where recipe can be searched and also custom recipe can be added.<br />
+A simple web application where recipe can be searched and also custom recipe can be added. The project architecture is based on MVC architecture <br />
 
 API used for this project (documentation link): https://forkify-api.herokuapp.com/v2 <br />
 
